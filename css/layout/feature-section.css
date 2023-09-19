@@ -8,21 +8,21 @@
   align-items: flex-start;
   gap: 72px;
   margin-top: 92px;
+  margin-bottom: 96px;
 }
 
-.list-title {
-  color: var(--NAVY-BLUE, #fafafa);
+.list-title-feature {
+  color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
-  align-self: stretch;
   font-size: 36px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.1; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 8px;
 }
 
-.list-text {
+.list-text-feature {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-style: normal;

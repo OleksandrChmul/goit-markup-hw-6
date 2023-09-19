@@ -3,7 +3,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero-pecture-mobile.jpg);
+    url(/images/hero-picture-mobile.jpg);
   width: 320px;
   height: 432px;
   background-repeat: no-repeat;
@@ -12,6 +12,13 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: url(/);
+  }
+}
+
 .hero-title {
   color: var(--WHITE, #fff);
   text-align: center;
