@@ -3,7 +3,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero-picture-mobile.jpg);
+    url(/images/background-img-mobile.jpg);
   width: 320px;
   height: 432px;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 
 @media screen and (min-resolution: 192dpi) {
   .hero-section {
-    background-image: url(/);
+    background-image: url(/images/background-img-mobile@2x.jpg);
   }
 }
 
