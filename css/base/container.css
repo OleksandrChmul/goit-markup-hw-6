@@ -3,13 +3,13 @@
   padding-right: 16px;
 }
 
-/* @media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) {
   .container {
     width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
-} */
+}
 
 @media screen and (min-width: 768px) {
   .container {
@@ -23,3 +23,7 @@
     padding: 0 15px;
   }
 }
+
+/*!======= Tablet styles! ========*/
+/********* Mobile styles *********/
+/*?######## Laptop styles #########*/
