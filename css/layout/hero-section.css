@@ -1,4 +1,58 @@
-.hero-section {
+/*!======= Tablet styles! ========*/
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/background-img-tablet.jpg);
+    width: 768px;
+    height: 436px;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(/images/background-img-tablet@2x.jpg);
+    }
+  }
+  .hero-title {
+    color: var(--WHITE, #fff);
+    text-align: center;
+    width: 496px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 112px;
+  }
+  .hero-button {
+    border-radius: 4px;
+    background: var(--IRIS, #4d5ae5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: block;
+    margin: 0 auto;
+    padding: 16px 32px;
+    margin-top: 36px;
+    color: var(--WHITE, #fff);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+  }
+}
+
+/********* Mobile styles *********/
+
+/* .hero-section {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -25,7 +79,7 @@
   width: 200px;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-top: 72px;
@@ -44,12 +98,15 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.04em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 72px;
-}
+} */
+
+/*?######## Laptop styles #########*/
+
 /* .hero-section {
   background-color: #2e2f42;
   padding: 188px 0;

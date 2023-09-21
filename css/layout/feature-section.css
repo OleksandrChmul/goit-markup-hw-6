@@ -1,9 +1,10 @@
+/********* Mobile styles *********/
 .container-icon {
   display: none;
 }
 
 .feature-list {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 72px;
@@ -17,7 +18,7 @@
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1; /* 111.111% */
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -27,8 +28,25 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+/*!======= Tablet styles! ========*/
+@media screen and (min-width: 768px) {
+  .feature-list {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 72px 24px;
+  }
+
+  .feature-list-item {
+    display: flex;
+    width: calc(100% - 24px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
 }
 
 /* .feature {
