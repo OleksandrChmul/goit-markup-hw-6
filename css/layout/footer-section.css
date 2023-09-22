@@ -210,10 +210,13 @@
   .footer-container {
     display: flex;
     align-items: baseline;
+    flex-wrap: nowrap;
+    margin-left: 0;
   }
 
   .footer-content-container {
-    margin-right: 120px;
+    width: 264px;
+    height: 112px;
   }
 
   .footer-social-media-text {
