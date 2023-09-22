@@ -1,3 +1,5 @@
+/********* Mobile styles *********/
+
 .navigation-list {
   display: none;
 }
@@ -21,7 +23,7 @@
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -79,7 +81,7 @@
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1; /* 111.111% */
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -105,13 +107,32 @@
   font-style: normal;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.02;
 }
 
 .contacts-link-mobile-first {
   color: var(--IRIS, #4d5ae5);
 }
+
+/*!======= Tablet styles! ========*/
+@media screen and (min-width: 768px) {
+  .open-mobile-menu-btn {
+    display: none;
+  }
+
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .navigation-list {
+    display: flex;
+    gap: 40px;
+  }
+}
+/*?######## Laptop styles #########*/
 
 /* .header-content {
   display: flex;

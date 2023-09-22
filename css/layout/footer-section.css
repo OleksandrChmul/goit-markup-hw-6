@@ -120,6 +120,39 @@
   margin-top: 16px;
   margin-bottom: 96px;
 }
+
+/*!======= Tablet styles! ========*/
+
+@media screen and (min-width: 768px) {
+  .footer {
+    width: 768px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    margin-left: 108px;
+  }
+
+  .footer-content-container {
+    width: 264px;
+    height: 112px;
+  }
+
+  .footer-sm-container {
+    width: 208px;
+    height: 80px;
+    margin-top: 96px;
+  }
+
+  .footer-f {
+    flex-direction: row;
+  }
+}
+
+/*?######## Laptop styles #########*/
 /* .footer {
   background-color: #2e2f42;
   padding: 100px 0;
