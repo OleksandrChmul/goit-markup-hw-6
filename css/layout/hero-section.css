@@ -5,7 +5,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/background-img-mobile.jpg);
+    url(../../images/background-img-mobile.jpg);
   width: 320px;
   height: 432px;
   background-repeat: no-repeat;
@@ -13,13 +13,18 @@
   background-size: cover;
   display: flex;
   justify-content: center;
+  padding: 72px 16px;
 }
 
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
   .hero-section {
-    background-image: url(/images/background-img-mobile@2x.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../../images/background-img-mobile@2x.jpg);
   }
 }
 
@@ -32,7 +37,6 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 72px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -63,7 +67,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background-img-tablet.jpg);
+      url(../../images/background-img-tablet.jpg);
     width: 768px;
     height: 436px;
   }
@@ -76,7 +80,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(/images/background-img-tablet@2x.jpg);
+        url(../../images/background-img-tablet@2x.jpg);
     }
   }
   .hero-title {
@@ -116,7 +120,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background-img.jpg);
+      url(../../images/background-img.jpg);
     background-repeat: no-repeat;
     width: 1158px;
     height: 600px;
@@ -133,7 +137,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(/images/background-img@2x.jpg);
+        url(../../images/background-img@2x.jpg);
     }
   }
   .hero-title {

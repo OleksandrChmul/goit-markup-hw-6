@@ -3,13 +3,19 @@
   display: none;
 }
 
+.feature {
+  padding: 96px 16px;
+}
+
+.feature-container {
+  width: 288px;
+}
+
 .feature-list {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: 72px;
-  margin-top: 92px;
-  margin-bottom: 96px;
 }
 
 .list-title-feature {
