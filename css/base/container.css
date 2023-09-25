@@ -2,12 +2,7 @@
   width: 320px;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    width: 296px;
-  }
+  padding: 0 16px;
 }
 
 @media screen and (min-width: 768px) {

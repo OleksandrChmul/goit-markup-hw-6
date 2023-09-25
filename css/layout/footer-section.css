@@ -2,7 +2,7 @@
 
 .footer {
   background-color: #2e2f42;
-  display: flex;
+  padding: 98px 0;
 }
 
 .footer-content-container {
@@ -21,7 +21,6 @@
   line-height: 1.16; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 98px;
 }
 
 .logo-studio-footer {
@@ -34,6 +33,7 @@
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .footer-sm-container {
@@ -49,7 +49,7 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  padding-top: 72px;
+  margin-top: 72px;
 }
 
 .footer-social-media-text {
@@ -119,42 +119,34 @@
   letter-spacing: 0.04em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer-btn {
     margin-top: 16px;
-    margin-bottom: 96px;
   }
 }
 
 /*!======= Tablet styles! ========*/
 
 @media screen and (min-width: 768px) {
-  .footer {
-    width: 768px;
-  }
-
   .footer-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
-    margin-left: 108px;
   }
 
   .footer-content-container {
-    width: 264px;
-    height: 112px;
+    align-items: flex-start;
   }
 
   .footer-sm-container {
-    width: 208px;
-    height: 80px;
-    margin-top: 96px;
+    margin-top: unset;
+    align-items: flex-start;
   }
 
   .footer-f {
-    display: block;
-    padding-top: 72px;
+    margin-top: unset;
+    align-items: flex-start;
   }
 
   .footer-btn {
@@ -166,17 +158,21 @@
   .footer-form {
     flex-direction: row;
     align-items: flex-start;
-    margin-top: 16px;
-    margin-bottom: 96px;
   }
 }
-
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer-container {
+    width: 584px;
+  }
+}
 /*?######## Laptop styles #########*/
 @media screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
-    display: flex;
-    width: 1158px;
+  }
+
+  .footer-content-container {
+    margin-right: 120px;
   }
 
   .logo-studio-footer {
@@ -185,7 +181,6 @@
 
   .logo-link-footer {
     display: inline-block;
-    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -211,12 +206,7 @@
     display: flex;
     align-items: baseline;
     flex-wrap: nowrap;
-    margin-left: 0;
-  }
-
-  .footer-content-container {
-    width: 264px;
-    height: 112px;
+    gap: unset;
   }
 
   .footer-social-media-text {
@@ -225,7 +215,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-bottom: 16px;
   }
 
   .footer-social-media-list {
@@ -303,6 +292,8 @@
     background: var(--IRIS, #4d5ae5);
     border: none;
     cursor: pointer;
+    gap: unset;
+    margin-left: 0;
   }
 
   .footer-form-icon {
